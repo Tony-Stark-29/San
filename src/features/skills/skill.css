@@ -1,0 +1,28 @@
+
+.skill-card
+{
+
+    box-shadow: 0 0 10px .5px var(--secondary-color);
+   
+    color: var(--secondary-color);
+    transform-origin: translate(500px,500px);
+    animation-name: right-in;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards; 
+  }
+  
+  @keyframes right-in {
+  
+    0%
+    {
+      opacity: 0;
+      transform: translate(500px,500px) scale(0.1);
+    }
+    100%
+    {
+      opacity: 1;
+      transform: translate(0) scale(1);
+    }
+  }
+  

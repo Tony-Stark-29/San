@@ -1,0 +1,43 @@
+.hero-container {
+  min-height: 80vh;
+  overflow: hidden;
+}
+
+.hero-container > div:nth-of-type(1) {
+  min-height: 25%;
+}
+.hero-container > div:nth-of-type(2) {
+  min-height: 75%;
+}
+
+.hero-body .heading::before {
+  content: "<h1>";
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+.hero-body .heading::after {
+  content: "</h1>";
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+
+.hero-name
+{
+    color: var(--secondary-color);
+}
+
+.hero-body p
+{
+    white-space: break;
+}
+
+.hero-body .para::before {
+  content: "<p>";
+  color: var(--secondary-color);
+  font-size: 1rem;
+}
+.hero-body .para::after {
+  content: "</p>";
+  color: var(--secondary-color);
+  font-size: 1rem;
+}

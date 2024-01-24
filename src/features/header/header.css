@@ -1,0 +1,9 @@
+header
+{
+    border-bottom: 2px solid rgba(173, 173, 173, 0.411);
+}
+
+.header-title
+{
+    color:var(--secondary-color);
+}
