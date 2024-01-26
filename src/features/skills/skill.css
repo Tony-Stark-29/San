@@ -1,28 +1,64 @@
+.skills-container {
+  min-height: 100vh;
+  font-family: "Chivo Mono", monospace;
+  background: url("../../resource/nnnoise.svg") center/cover;
+}
 
-.skill-card
+.skills-container > div {
+}
+
+.skill-card {
+  box-shadow: 0 0 10px 0.5px var(--secondary-color);
+
+  color: var(--secondary-color);
+  transform-origin: translate(500px, 500px);
+  animation-name: right-in;
+  animation-duration: 2s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+
+.skillset-card
+{
+  border: 3px solid var(--secondary-color);
+  background-color: #282c34;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 10px;
+  border-left: 10px solid #fff;
+  
+}
+
+.skills > div
 {
 
-    box-shadow: 0 0 10px .5px var(--secondary-color);
-   
-    color: var(--secondary-color);
-    transform-origin: translate(500px,500px);
-    animation-name: right-in;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-fill-mode: forwards; 
+  position: relative;
+}
+.skills > div > span
+{
+  color:white;
+  font-size: 0.8rem;
+  position: absolute;
+  top: 105%;
+}
+.skills > div {
+
+  color: #282c34;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+
+@keyframes right-in {
+  0% {
+    opacity: 0;
+    transform: translate(500px, 500px) scale(0.1);
   }
-  
-  @keyframes right-in {
-  
-    0%
-    {
-      opacity: 0;
-      transform: translate(500px,500px) scale(0.1);
-    }
-    100%
-    {
-      opacity: 1;
-      transform: translate(0) scale(1);
-    }
+  100% {
+    opacity: 1;
+    transform: translate(0) scale(1);
   }
-  
+}

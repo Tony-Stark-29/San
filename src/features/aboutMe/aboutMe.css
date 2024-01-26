@@ -1,3 +1,28 @@
+.about-me-container {
+  min-height: 100vh;
+  background: url("../../resource/ttten-bg.svg") center/cover;
+}
+
+.about-me-title {
+  font-family: 'Chivo Mono', monospace;
+  width: max-content;
+  background-color: #302c34;
+  border: 3px solid var(--secondary-color);
+  border-radius: 0 20px 0 20px;
+}
+
+.about-me-body {
+  font-family: "Chivo Mono", monospace;
+  font-weight: 100;
+  text-align: justify;
+  background-color: #302c34;
+}
+
+.about-me-image {
+  min-height: 70vh;
+  background: url("../../resource/laptop-screen-coding.jpg") center/cover;
+}
+
 .aboutMe-card {
   /* border: 3px solid #fff;
   box-shadow: -3px -3px 0px 0px var(--secondary-color); */
@@ -22,7 +47,7 @@
 @keyframes fade-out {
   from {
     opacity: 0;
-    scale: 0,8;
+    scale: 0, 8;
   }
   to {
     opacity: 1;

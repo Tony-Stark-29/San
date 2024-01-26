@@ -1,7 +1,20 @@
+
+
+.hero-container h1
+{
+  font-family: 'Chivo Mono', monospace;
+  font-weight: 800;
+ 
+}
+
 .hero-container {
-  min-height: 80vh;
+
+  font-family: 'Cutive Mono', monospace;
+  min-height: 100vh;
   overflow: hidden;
 }
+
+ 
 
 .hero-container > div:nth-of-type(1) {
   min-height: 25%;

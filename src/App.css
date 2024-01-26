@@ -1,7 +1,8 @@
 .App {
-
   min-height: 100vh;
- background-color:#22232b;
+  background-color: #22232b;
+  position: relative;
+  z-index: 0;
 }
 
 .App-logo {
@@ -39,24 +40,20 @@
   }
 }
 
- 
-
-.scroll-watcher
-{
+.scroll-watcher {
   height: 2px;
   position: sticky;
-  top:0;
+  top: 0;
   z-index: 1000;
   background-color: var(--secondary-color);
   transform-origin: left;
   scale: 0 1;
   animation: scroll-watcher linear;
   animation-timeline: scroll();
-
 }
 
 @keyframes scroll-watcher {
-
-  to{scale: 1 1;}
-  
+  to {
+    scale: 1 1;
+  }
 }

@@ -1,7 +1,8 @@
 import React from "react";
 import "./hero.css";
-import { AboutMe } from "../aboutMe/AboutMe";
+ 
 import { SkillCard } from "../skills/SkillCard";
+import { AboutMeCard } from "../aboutMe/AboutMeCard";
 
 export const Hero = () => {
   return (
@@ -11,11 +12,11 @@ export const Hero = () => {
       </div>
       <div className="hero-body row py-4  mb-auto">
         <div className="col-12 col-lg-3">
-          <AboutMe />
+              <AboutMeCard/>
         </div>
         <div className="col-12 col-lg-6 p-1  m-auto">
           <div className=" row m-auto py-3">
-            <div className="heading  m-auto  w-75">
+            <div className="heading  m-auto ">
               <h1 className="display-5 fw-bolder ps-4 ">
                 Hey <br /> I'm <span className="hero-name">Santhosh Kumar</span>{" "}
                 <br /> Web Devloper
@@ -23,7 +24,7 @@ export const Hero = () => {
             </div>
           </div>
           <div className=" row m-auto py-3 ">
-            <div className=" para  w-75 m-auto">
+            <div className=" para   ">
               <p className=" text-justify ps-4">
                 "Crafting Digital Experiences That Captivate, Code That Excels,
                 and Solutions That Transform."

@@ -4,6 +4,7 @@ import "./header.css";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faCode,
   faGreaterThan,
   faLessThan,
   faSlash,
@@ -14,8 +15,7 @@ export const Header = () => {
   return (
     <header className=" container py-3 d-flex flex-row justify-content-between">
       <div className="header-title   text-center fs-4">
-        <FontAwesomeIcon icon={faLessThan} /> <strong>S</strong>{" "}
-        <FontAwesomeIcon icon={faGreaterThan} />
+        <FontAwesomeIcon icon={faCode} />  
       </div>
       <PrimaryNav />
       <SocialMediaLinks />
