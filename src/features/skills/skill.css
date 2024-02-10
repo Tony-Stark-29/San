@@ -1,7 +1,7 @@
 .skills-container {
   min-height: 100vh;
   font-family: "Chivo Mono", monospace;
-  background: url("../../resource/nnnoise.svg") center/cover;
+  /* background: url("../../resource/nnnoise.svg") center/cover; */
 }
 
 .skills-container > div {

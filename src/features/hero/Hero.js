@@ -11,16 +11,16 @@ export const Hero = () => {
         <h1 className=" display-2  w-auto m-auto"> Developer</h1>
       </div>
       <div className="hero-body row py-4  mb-auto">
-        <div className="col-12 col-lg-3">
+        <div className="col-12 col-lg-3 p-1">
               <AboutMeCard/>
         </div>
         <div className="col-12 col-lg-6 p-1  m-auto">
           <div className=" row m-auto py-3">
             <div className="heading  m-auto ">
-              <h1 className="display-5 fw-bolder ps-4 ">
+              <h2 className="display-5 fw-bolder ps-4 ">
                 Hey <br /> I'm <span className="hero-name">Santhosh Kumar</span>{" "}
-                <br /> Web Devloper
-              </h1>
+                <br /> Web Developer
+              </h2>
             </div>
           </div>
           <div className=" row m-auto py-3 ">

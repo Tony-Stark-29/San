@@ -11,7 +11,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #41464c;
+
   scroll-behavior: smooth;
 }
 
@@ -44,3 +44,22 @@ code {
 .btn-primary:active {
   transform: scale(1.15);
 }
+
+ 
+::-webkit-scrollbar {
+  width: 10px; 
+  background-color: #000000;
+}
+
+ 
+::-webkit-scrollbar-thumb {
+  background: #555;  
+  border-radius: 5px;  
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+ 
+  background: #98faec;  
+}
+
+ 

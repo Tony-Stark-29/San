@@ -2,7 +2,16 @@
 .mywork-container
 {
 
-    background:url("../../resource/tttwinkle.svg") center/cover;
+    font-family: 'Cutive Mono', monospace;
+    
     min-height: 100vh;
+
+}
+
+.mywork-container h1
+{
+ 
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 900;
 
 }

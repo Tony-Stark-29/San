@@ -3,3 +3,9 @@
 {
     color: var(--secondary-color);
 }
+
+.media-link
+{
+  text-decoration: none;
+  color: #fff;
+}

@@ -1,0 +1,62 @@
+
+
+.contact-me-container
+{
+     
+    font-family: 'Cutive Mono', monospace;
+}
+
+.contact-me-title  
+{
+ 
+    font-family: 'Chivo Mono', monospace;
+    font-weight: 700;
+
+}
+
+.contact-me-title
+{
+    color: var(--secondary-color);
+    border-radius: 20px 0 20px 0;
+   
+
+}
+
+.contact-me-form label
+{
+    color:var(--secondary-color);
+}
+
+.contact-me-form input,textarea{
+
+
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid var(--secondary-color);
+    color: #fff;
+
+}
+
+.contact-me-form
+{
+    border-radius: 40px 0 40px 0;
+    background-color: rgba(255, 255, 255, 0.128);
+    padding: 1rem 2rem;
+}
+.contact-me-form button
+{
+    border: 2px solid var(--secondary-color);
+    border-radius:0 15px 0 15px;
+    background-color: transparent;
+    outline: none;
+    padding: 5px 10px;
+    
+    color: var(--secondary-color);
+}
+
+.contact-me-form button:active
+{
+    background-color: var(--secondary-color);
+    color: #fff;
+}

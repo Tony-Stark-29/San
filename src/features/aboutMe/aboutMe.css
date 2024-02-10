@@ -1,6 +1,6 @@
 .about-me-container {
   min-height: 100vh;
-  background: url("../../resource/ttten-bg.svg") center/cover;
+  /* background: url("../../resource/ttten-bg.svg") center/cover; */
 }
 
 .about-me-title {
@@ -18,12 +18,14 @@
   background-color: #302c34;
 }
 
+
+ 
 .about-me-image {
   min-height: 70vh;
   background: url("../../resource/laptop-screen-coding.jpg") center/cover;
 }
 
-.aboutMe-card {
+.about-me-card {
   /* border: 3px solid #fff;
   box-shadow: -3px -3px 0px 0px var(--secondary-color); */
   border-radius: 20px;
@@ -33,6 +35,12 @@
   transform-origin: translate(-500px, -500px);
   animation: fade-out linear;
   animation-timeline: scroll();
+}
+
+.about-me-card-header
+{
+  color: var(--secondary-color);
+  font-size: 2rem;
 }
 
 @keyframes fade-in {

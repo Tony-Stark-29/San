@@ -15,13 +15,13 @@ export const SocialMediaLinks = () => {
         <div className="text-info mx-2">
           <FontAwesomeIcon className="fa-icon" icon={faGithub} />{" "}
           <span className="fs-6 text-light">
-           <a href={GITHUB_LINK} target="_blank" > <small>GitHub</small></a>
+           <a href={GITHUB_LINK} target="_blank" className="media-link"> <small>GitHub</small></a>
           </span>
         </div>
         <div className="text-info mx-2">
           <FontAwesomeIcon className="fa-icon" icon={faLinkedinIn} />{" "}
           <span className="fs-6 text-light">
-            <a href={LINKEDIN_LINK} target="_blank"><small>LinkedIn</small></a>
+            <a href={LINKEDIN_LINK} target="_blank" className="media-link"><small>LinkedIn</small></a>
           </span>
         </div>
       </div>
